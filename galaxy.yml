@@ -1,0 +1,16 @@
+namespace: usace
+name: spk
+version: 1.0.0
+readme: README.md
+authors:
+- Daniel Osborne
+description: |
+  Ansible collection used by USACE.
+license_file: LICENSE
+tags:
+- windows
+dependencies: {}
+build_ignore:
+- .vscode
+- tests/integration/inventory*
+- changelogs/.plugin-cache.yaml
